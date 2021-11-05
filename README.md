@@ -134,9 +134,9 @@
     }
   ```
   * Buscar projetos
-    * ####### GET: localhost:6868/projetos/{numeroDoProjeto}
+    * ###### GET: localhost:6868/projetos/{numeroDoProjeto}
   * Listar todos os projetos
-    * ####### GET: localhost:6868/projetos
+    * ###### GET: localhost:6868/projetos
   * Editar projetos
   ###### PUT: localhost:6868/projetos/editar/{numeroDoProjeto}
   ```json
