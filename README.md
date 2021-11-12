@@ -7,12 +7,14 @@
   ###### POST: localhost:6868:/secoes
   ```json
     {
-      "responsavel": "Thiago",
+      "cracha_responsavel": 67279,
       "nome": "Departamento de E-commerce"
     }
   ```
   * Buscar seção pelo id 
     * ###### GET: localhost:6868/secoes/{id}
+  * Buscar seção pelo funcionário responsável
+    * ###### GET: localhost:6868/secoes/cracha/{numeroCracha}
   * Listar seções   
     * ###### GET: localhost:6868/secoes
   * Remover seção 
@@ -103,8 +105,8 @@
         "numeroDoProjeto": 182245,
         "titulo": "GHI - Implantação2 de motores de carros3",
         "descricao": "Implantar motores eletricos na secao de tinturaria",
-        "nome_responsavel": "Victor",
-        "nome_solicitante": "Cauã",
+        "cracha_responsavel": 67281,
+		    "cracha_solicitante": 67266,
         "data_de_inicio": "18/06/2021",
         "data_de_termino": "18/07/2021",
         "data_de_aprovacao": "17/06/2021"
@@ -145,8 +147,8 @@
         "numeroDoProjeto": 182245,
         "titulo": "GHI - Implantação2 de motores de carros3",
         "descricao": "Implantar motores eletricos na secao de tinturaria",
-        "nome_responsavel": "Victor",
-        "nome_solicitante": "Cauã",
+        "cracha_responsavel": 67281,
+		    "cracha_solicitante": 67266,
         "data_de_inicio": "18/06/2021",
         "data_de_termino": "18/07/2021",
         "data_de_aprovacao": "17/06/2021"
